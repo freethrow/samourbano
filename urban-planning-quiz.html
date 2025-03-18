@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квиз из урбанистичког планирања</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #003366;
+            text-align: center;
+            border-bottom: 2px solid #003366;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: white;
+            background-color: #004080;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 40px;
+        }
+        .question {
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            border-left: 4px solid #0066cc;
+        }
+        .question h3 {
+            margin-top: 0;
+            color: #0066cc;
+        }
+        .answer {
+            display: none;
+            background-color: #e6f7ff;
+            border-left: 4px solid #00cc66;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .show-answer {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .show-answer:hover {
+            background-color: #004080;
+        }
+        .instructions {
+            background-color: #ffffcc;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        @media print {
+            .show-answer {
+                display: none;
+            }
+            .answer {
+                display: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Квиз из урбанистичког планирања и пројектовања</h1>
+    
+    <div class="instructions">
+        <p><strong>Упутство:</strong> Овај квиз садржи питања која покривају градиво из урбанистичког планирања и пројектовања. 
+        Кликните на дугме "Прикажи одговор" да видите тачан одговор на питање. При штампању, одговори ће бити сакривени.</p>
+    </div>
+    
+    <h2>I - Урбанистички елементи насеља</h2>
+    
+    <div class="question">
+        <h3>Питање 1:</h3>
+        <p>Која је регулациона ширина магистрала у градском саобраћају?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Регулациона ширина магистрала је 40м, изузетно 30м.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 2:</h3>
+        <p>Наведите поделу улица према положају у градском ткиву.</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Према положају у градском ткиву улице могу бити: дијагоналне, трансверзалне, кружне, обилазнице, паралелне, унутарблоковске и слепе.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 3:</h3>
+        <p>Који тип подужног профила улице пружа најбоље естетске услове за сагледавање и осветљавање простора?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Конкаван профил пружа најбоље естетске услове за сагледавање и осветљавање простора.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 4:</h3>
+        <p>Колика је минимална ширина тротоара код саобраћајница?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Минимална ширина тротоара код саобраћајница је 3м.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 5:</h3>
+        <p>Колико треба бити минимално удаљен дрворед од коловозног ивичњака?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Дрворед мора бити повучен најмање 1,5м, а изузетно 1м од коловозног ивичњака.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 6:</h3>
+        <p>Који је најповољнији однос дубине и ширине трга?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Најповољнији однос дубине и ширине трга је 2:1.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 7:</h3>
+        <p>Који су основни елементи микроурбанистичких елемената насеља?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Основни микроурбанистички елементи насеља су: улице, блокови и тргови.</p>
+        </div>
+    </div>
+    
+    <h2>II - Урбани параметри стамбеног насеља</h2>
+    
+    <div class="question">
+        <h3>Питање 8:</h3>
+        <p>Колико становника оптимално садржи стамбена заједница?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Оптималан број становника у стамбеној заједници је 5000 до 7000.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 9:</h3>
+        <p>Колико становника обухвата стамбена четврт?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Стамбена четврт обухвата 15000-20000 становника.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 10:</h3>
+        <p>Наведите типове стамбених зграда према диспозицији објеката.</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Према диспозицији објеката стамбене зграде се деле на: слободно стојеће индивидуалне, двојне, зграде у низу, слободне стамбене трактове или стамбене блокове, стамбене куле и стамбену изградњу комбинованог типа.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 11:</h3>
+        <p>Колико треба да буде минимално растојање код слободностојећих индивидуалних објеката спратности П+1?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Минимално растојање код објеката спратности П+1 је 3м.</p>
+        </div>
+    </div>
+    
+    <h2>III - Густина насељености и регулациони параметри</h2>
+    
+    <div class="question">
+        <h3>Питање 12:</h3>
+        <p>Колика је просечна нето густина насељености за изградњу П+4?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Просечна нето густина насељености за изградњу П+4 је 300-350ст/ха.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 13:</h3>
+        <p>Шта представља регулациона линија?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Регулационом линијом се утврђује граница грађевинске парцеле према улици, а према начину изградње односи се на зграду или на ограду.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 14:</h3>
+        <p>Колика је најмања површина грађевинског блока?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Најмања површина грађевинског блока је 0,5ха.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 15:</h3>
+        <p>Колика је најмања ширина парцеле за зграде у низу?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Најмања ширина парцеле за зграде у низу је 5м.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 16:</h3>
+        <p>Колики проценат градске територије код великих градова заузимају површине намењене јавном зеленилу и саобраћају?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Код великих градова, површине намењене јавном зеленилу и саобраћају заузимају 40% градске територије.</p>
+        </div>
+    </div>
+    
+    <h2>IV - Примена и комбиновани задаци</h2>
+    
+    <div class="question">
+        <h3>Питање 17:</h3>
+        <p>За коју ширину тротоара је дозвољено постављање цветних површина?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Цветне површине се постављају када тротоар има најмању ширину од 5м.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 18:</h3>
+        <p>Који је однос тргова који се претвара у проширење улице?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Са односом већим од 4:1, трг се не сагледава већ претвара у проширење улице.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 19:</h3>
+        <p>Чему служе пасажи у градском блоку?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Пасажи служе за скраћење пролаза кроз блокове, као заклон од кише, сунца, а могу се користити за специфичне радње, рекламе. На месту сучељавања блокова могу се проширити у покривене хале и користити као унутрашњи трг у блоку.</p>
+        </div>
+    </div>
+    
+    <div class="question">
+        <h3>Питање 20:</h3>
+        <p>Шта чини нето површину стамбеног блока?</p>
+        <button class="show-answer" onclick="this.nextElementSibling.style.display='block'">Прикажи одговор</button>
+        <div class="answer">
+            <p>Нето површину стамбеног блока сачињавају површине између регулационих линија стамбеног блока и оса локалних улица које окружују стамбени блок.</p>
+        </div>
+    </div>
+    
+    <script>
+        // Додатна функционалност за штампање
+        window.onbeforeprint = function() {
+            var answers = document.querySelectorAll('.answer');
+            for(var i = 0; i < answers.length; i++) {
+                answers[i].style.display = 'none';
+            }
+        };
+    </script>
+</body>
+</html>
